@@ -10,7 +10,8 @@ class UserInfo extends React.Component {
                     <div>userName: {userName}</div>
                     <div>userGender: {userGender}</div>
                     <div>userAge: {userAge}</div>  
-                    <div>yearsWorked: {yearsWorked}</div>           
+                    <div>yearsWorked: {yearsWorked}</div>
+                    <div>salary: {yearsWorked*10}</div>           
                 </div>
             </div>
        )

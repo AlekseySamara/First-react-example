@@ -32,11 +32,11 @@ const App = () => {
       <FormInput labelText = {'пароль'} inputType= {'password'}/>
       <Title/>
       <h2>Homework</h2>
-      <ul><UserInfo userName = {'Вова'} userGender = {'Муж'} userAge = {27} yearsWorked = {1}/></ul>
+      <div><UserInfo userName = {'Вова'} userGender = {'Муж'} userAge = {27} yearsWorked = {1}/></div>
       <hr></hr>
-      <ul><UserInfo userName = {'Иван'} userGender = {'Муж'} userAge = {21} yearsWorked = {2}/></ul>
+      <div><UserInfo userName = {'Иван'} userGender = {'Муж'} userAge = {21} yearsWorked = {2}/></div>
       <hr></hr>
-      <ul><UserInfo userName = {'Ольга'} userGender = {'Жен'} userAge = {37} yearsWorked = {3}/></ul>
+      <div><UserInfo userName = {'Ольга'} userGender = {'Жен'} userAge = {37} yearsWorked = {3}/></div>
       <hr></hr>
     </div>
   )
